@@ -1,0 +1,27 @@
+.main-footer__copyright {
+bottom: 0;
+  position: fixed;
+  width: 100%;
+  height: auto;
+
+   box-shadow: 0px 3px 20px rgba(0, 0, 0, 0.2);
+  background-color: #222831;
+}
+.main-footer__copyright-content {
+  padding-left: 27px;
+  color: white;
+  cursor: pointer;
+  font: 11px sans-serif;
+  float:left;
+margin-top:1.5vh;
+margin-bottom:1.5vh;
+}
+
+.main-footer__copyright-content:hover {
+    color:#01b2ee;
+}
+@media screen and (max-width:720px){
+    .main-footer__copyright { 
+  display: none;
+    }
+    }

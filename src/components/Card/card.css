@@ -1,0 +1,15 @@
+  .card {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    margin: 5%;
+    width: 27vh;
+    height: 40vh;
+  }
+  .card-movie:hover {
+    box-shadow: 0 2px 8px #01b2ee;
+  }  
+
+  .card-des{
+    display: none;
+  }
+  
